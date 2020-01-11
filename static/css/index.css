@@ -1,0 +1,133 @@
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    margin-bottom: 3px;
+}
+.logo-bkdn{
+    margin-left: 270px;
+    margin-top: 10px;
+}
+
+
+.name-bkdn{
+    font-size: 300%;
+    margin-left: 20px;
+    color: #263e6b;
+    text-transform: uppercase;
+}
+
+.name-dtvt{
+    color: red;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: orange;
+    font-size: 200%;
+    font-weight: 700;
+    margin: 30px 0;
+    text-align: center;
+}
+h2:after{
+    content: "";
+    display: block;
+    width: 40%;
+    height: 3px;
+    background-color: rgb(245, 184, 70, 0.5);
+    margin: 0 auto;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 150%;
+    color: #d35400;
+}
+
+footer{
+    background-color: silver;
+    padding: 20px;
+    font-size: 120%;
+    color: blue;
+}
+
+.name-img{
+    color: #555555;
+    font-size: 90%;
+}
+
+.line{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #aaa;
+    margin: 5px auto;
+}
+
+/* a */
+
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em;    
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label{
+    display: inline-block;
+    padding: 12px 30px;
+    background: #39D2B4;
+    color: #fff;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.upload-label:hover{
+    background: #34495E;
+    color: #39D2B4;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+
+
